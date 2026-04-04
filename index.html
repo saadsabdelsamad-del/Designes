@@ -12,20 +12,20 @@ a{text-decoration:none;color:inherit}
 img{max-width:100%;display:block}
 
 :root{
-  --navy:#0b1f3a;
-  --navy2:#122848;
+  --navy:#0d1b2a;
+  --navy2:#122333;
   --blue:#1a4f8a;
   --blue2:#1e5fa0;
-  --accent:#c49a2a;
-  --steel:#4e657d;
+  --accent:#b8952a;
+  --steel:#4a6070;
   --muted:#7a8f9e;
-  --light:#f5f7fa;
+  --light:#f4f6f9;
   --border:#dde4ec;
   --white:#ffffff;
   --radius:4px;
-  --shadow:0 2px 16px rgba(11,31,58,.08);
-  --shadow-md:0 4px 28px rgba(11,31,58,.12);
-  --shadow-lg:0 8px 48px rgba(11,31,58,.16);
+  --shadow:0 2px 16px rgba(13,27,42,.08);
+  --shadow-md:0 4px 28px rgba(13,27,42,.13);
+  --shadow-lg:0 8px 48px rgba(13,27,42,.18);
 }
 
 .container{max-width:1140px;margin:0 auto;padding:0 32px}
@@ -70,7 +70,7 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
 /* ── Navbar ── */
 #navbar{
   position:fixed;top:0;left:0;right:0;z-index:1000;
-  background:rgba(11,31,58,.97);backdrop-filter:blur(16px);
+  background:rgba(13,27,42,.97);backdrop-filter:blur(16px);
   border-bottom:1px solid rgba(255,255,255,.06);
   transition:box-shadow .3s;
 }
@@ -130,8 +130,8 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
 .hero-bg{
   position:absolute;inset:0;
   background:
-    linear-gradient(180deg, rgba(11,31,58,0) 40%, rgba(11,31,58,1) 100%),
-    linear-gradient(135deg, #0b1f3a 0%, #0e2d55 50%, #0b1f3a 100%);
+    linear-gradient(180deg, rgba(13,27,42,0) 40%, rgba(13,27,42,1) 100%),
+    linear-gradient(135deg, #0d1b2a 0%, #0d2240 50%, #0d1b2a 100%);
 }
 .hero-lines{
   position:absolute;inset:0;
@@ -210,7 +210,7 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
 }
 .about-card-bg{
   position:absolute;inset:0;
-  background:linear-gradient(135deg,#0b1f3a 0%,#122848 60%,#0e2d55 100%);
+  background:linear-gradient(135deg,#0d1b2a 0%,#122333 60%,#0d2240 100%);
 }
 .about-card-grid{
   position:absolute;inset:0;
@@ -222,7 +222,7 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
   position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:36px;
 }
 .about-card-stat{
-  background:rgba(11,31,58,.8);backdrop-filter:blur(12px);
+  background:rgba(13,27,42,.8);backdrop-filter:blur(12px);
   border:1px solid rgba(255,255,255,.08);border-radius:4px;
   padding:20px 24px;display:inline-block;
 }
@@ -250,7 +250,7 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
 .milestone-t{font-size:.9rem;font-weight:600;color:var(--navy);margin-top:4px}
 
 /* ── Services ── */
-.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border)}
+.services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--border)}
 .service-card{
   background:var(--white);padding:44px 36px;
   transition:all .25s;position:relative;overflow:hidden;
@@ -294,7 +294,7 @@ h1,h2,h3,h4{line-height:1.15;font-weight:700;letter-spacing:-.02em}
 .project-thumb svg{width:100%;height:100%}
 .project-type{
   position:absolute;top:20px;left:20px;
-  background:rgba(11,31,58,.85);backdrop-filter:blur(8px);
+  background:rgba(13,27,42,.85);backdrop-filter:blur(8px);
   border:1px solid rgba(255,255,255,.12);
   font-size:.65rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
   color:rgba(255,255,255,.8);padding:5px 12px;border-radius:2px;
@@ -573,9 +573,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
       <div class="about-text">
         <div class="eyebrow">Our Story</div>
         <h2 class="h-section">Built on Expertise.<br>Proven Over Decades.</h2>
-        <p>Designes was founded in 1995 with a clear mission: to deliver engineering installations that meet the highest technical standards across Lebanon. What began as a specialist mechanical engineering firm has since grown into a fully integrated MEP contracting company.</p>
-        <p>Over three decades, we have built our reputation project by project — never compromising on quality, safety, or delivery timelines. Our team brings deep expertise across HVAC, plumbing, firefighting systems, and electrical works, ensuring seamless coordination across all building services disciplines.</p>
-        <p>From the complete mechanical scope of Ein Wazein Hospital to multiple Banque du Liban branches, our portfolio reflects the trust placed in Designes by Lebanon's most discerning clients.</p>
+        <p>Designes was built from nothing. In 1995, its founder started the company with a simple conviction: that quality engineering, delivered honestly, would always find its clients. What followed was not a smooth ascent — it was three decades of perseverance through conditions that broke far larger firms. Wars, economic collapse, currency crises, political paralysis — Lebanon has endured them all, and so has Designes. While competitors closed their doors and others left the country, he stayed. He kept his team together, honored his commitments, and continued delivering work that met the highest technical standards, regardless of the circumstances outside. Today, Designes stands as a testament to what one determined man can build — and sustain — through sheer integrity and refusal to quit. From hospitals and national bank branches to luxury residences and commercial towers, every project in our portfolio carries the same weight: the word of someone who has never walked away from a promise.</p>
         <div class="milestones">
           <div class="milestone">
             <div class="milestone-y">1995</div>
@@ -608,7 +606,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           <div class="eyebrow">What We Do</div>
           <h2 class="h-section" style="margin-bottom:0">End-to-End MEP Services</h2>
         </div>
-        <p class="lead" style="max-width:400px;font-size:.92rem">A single contractor for all four building services disciplines — coordinated, reliable, and accountable.</p>
+        <p class="lead" style="max-width:400px;font-size:.92rem">Specialist expertise in HVAC and electrical works — two disciplines, delivered with full in-house accountability.</p>
       </div>
     </div>
   </div>
@@ -626,36 +624,6 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
         <li>Fresh air & ventilation networks</li>
         <li>Cleanroom & critical environment HVAC</li>
         <li>BMS integration & controls</li>
-      </ul>
-    </div>
-    <!-- Plumbing -->
-    <div class="service-card">
-      <div class="service-icon-wrap">
-        <svg viewBox="0 0 24 24"><path d="M12 2c0 6-6 8-6 14a6 6 0 0 0 12 0c0-6-6-8-6-14z"/><path d="M12 12v4"/></svg>
-      </div>
-      <h3>Plumbing & Drainage</h3>
-      <p>Full plumbing packages covering water supply, drainage, and sanitary systems — designed for long-term reliability and performance.</p>
-      <ul class="s-list">
-        <li>Domestic cold & hot water systems</li>
-        <li>Drainage & sewage networks</li>
-        <li>Pumping stations & storage tanks</li>
-        <li>Roof drainage & rainwater systems</li>
-        <li>Pressure-reducing & booster sets</li>
-      </ul>
-    </div>
-    <!-- Firefighting -->
-    <div class="service-card">
-      <div class="service-icon-wrap">
-        <svg viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
-      </div>
-      <h3>Firefighting Systems</h3>
-      <p>Life-safety fire suppression and detection systems installed to international codes and Lebanese civil defense requirements.</p>
-      <ul class="s-list">
-        <li>Wet & dry sprinkler systems</li>
-        <li>Fire hose reel networks</li>
-        <li>FM200 & gaseous suppression</li>
-        <li>Fire detection & alarm systems</li>
-        <li>Smoke extraction & pressurization</li>
       </ul>
     </div>
     <!-- Electrical -->
@@ -693,7 +661,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
     <!-- Ein Wazein -->
     <div class="project-card">
       <div class="project-thumb">
-        <svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" style="background:linear-gradient(135deg,#0b1f3a,#122848)">
+        <svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" style="background:linear-gradient(135deg,#0d1b2a,#122333)">
           <defs><pattern id="g1" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="rgba(255,255,255,.05)" stroke-width="1"/></pattern></defs>
           <rect width="600" height="220" fill="url(#g1)"/>
           <!-- Hospital building -->
@@ -867,14 +835,14 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
         </div>
         <h4>Single-Source Responsibility</h4>
-        <p>One contractor for all four MEP disciplines means better coordination, fewer delays, and clear accountability at every stage.</p>
+        <p>One contractor for both HVAC and electrical disciplines means better coordination, fewer delays, and clear accountability at every stage.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
         </div>
         <h4>Technical Depth & Precision</h4>
-        <p>Our engineers bring specialist knowledge in all four disciplines — from design coordination through commissioning and client handover.</p>
+        <p>Our engineers bring deep specialist knowledge across HVAC and electrical works — from design coordination through commissioning and client handover.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">
@@ -901,7 +869,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           </div>
           <div class="c-detail-text">
             <strong>Location</strong>
-            <span>Beirut, Lebanon</span>
+            <span>Hamra, Beirut, Lebanon</span>
           </div>
         </div>
         <div class="c-detail">
@@ -910,7 +878,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           </div>
           <div class="c-detail-text">
             <strong>Phone</strong>
-            <span>+961 X XXX XXX</span>
+            <span>03 616 454 &nbsp;/&nbsp; 01 354 331</span>
           </div>
         </div>
         <div class="c-detail">
@@ -919,7 +887,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           </div>
           <div class="c-detail-text">
             <strong>Email</strong>
-            <span>info@designes.lb</span>
+            <span>designes.sas@hotmail.com</span>
           </div>
         </div>
         <div class="c-detail">
@@ -928,7 +896,7 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
           </div>
           <div class="c-detail-text">
             <strong>Working Hours</strong>
-            <span>Monday – Friday, 8:00 AM – 5:00 PM</span>
+            <span>Monday – Friday, 8:00 AM – 2:00 PM</span>
           </div>
         </div>
       </div>
@@ -999,8 +967,6 @@ footer{background:#060f1c;color:rgba(255,255,255,.45);padding:64px 0 28px}
         <h5>Services</h5>
         <ul>
           <li><a href="#services">HVAC Systems</a></li>
-          <li><a href="#services">Plumbing & Drainage</a></li>
-          <li><a href="#services">Firefighting Systems</a></li>
           <li><a href="#services">Electrical Works</a></li>
         </ul>
       </div>
